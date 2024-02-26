@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="2" failed="6" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-06T14:06:00 BDT" name="Default suite" finished-at="2024-02-06T14:06:17 BDT" duration-ms="16551">
+    <groups>
+    </groups>
+    <test started-at="2024-02-06T14:06:00 BDT" name="Default test" finished-at="2024-02-06T14:06:17 BDT" duration-ms="16551">
+      <class name="dhiofur.texrootsourcing.com.FigmaDesign">
+        <test-method is-config="true" signature="setup()[pri:0, instance:dhiofur.texrootsourcing.com.FigmaDesign@5a5a729f]" started-at="2024-02-06T14:06:00 BDT" name="setup" finished-at="2024-02-06T14:06:12 BDT" duration-ms="12245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AboutUS()[pri:0, instance:dhiofur.texrootsourcing.com.FigmaDesign@5a5a729f]" started-at="2024-02-06T14:06:12 BDT" name="AboutUS" finished-at="2024-02-06T14:06:14 BDT" duration-ms="1398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AboutUS -->
+        <test-method signature="Blog()[pri:0, instance:dhiofur.texrootsourcing.com.FigmaDesign@5a5a729f]" started-at="2024-02-06T14:06:14 BDT" name="Blog" finished-at="2024-02-06T14:06:14 BDT" duration-ms="31" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/div[3]/section[2]/div/div[1]/div[2]/div/div/div/a[2]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1, findElement {using=xpath, value=/html/body/div[3]/section[2]/div/div[1]/div[2]/div/div/div/a[2]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0, moz:accessibilityChecks: false, moz:buildID: 20240118164516, moz:debuggerAddress: 127.0.0.1:46598, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4160, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46598/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[3]/section[2]/div/div[1]/div[2]/div/div/div/a[2]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1, findElement {using=xpath, value=/html/body/div[3]/section[2]/div/div[1]/div[2]/div/div/div/a[2]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0, moz:accessibilityChecks: false, moz:buildID: 20240118164516, moz:debuggerAddress: 127.0.0.1:46598, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4160, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46598/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at dhiofur.texrootsourcing.com.FigmaDesign.Blog(FigmaDesign.java:170)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blog -->
+        <test-method signature="Concern()[pri:0, instance:dhiofur.texrootsourcing.com.FigmaDesign@5a5a729f]" started-at="2024-02-06T14:06:14 BDT" name="Concern" finished-at="2024-02-06T14:06:15 BDT" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Concern -->
+        <test-method signature="Homepage()[pri:0, instance:dhiofur.texrootsourcing.com.FigmaDesign@5a5a729f]" started-at="2024-02-06T14:06:15 BDT" name="Homepage" finished-at="2024-02-06T14:06:15 BDT" duration-ms="70" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <span> is not clickable at point (281,107) because another element <div class="loader"> obscures it
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1, clickElement {id=4c7cdfc4-ba1d-48dd-9c35-f85d38915dcf}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0, moz:accessibilityChecks: false, moz:buildID: 20240118164516, moz:debuggerAddress: 127.0.0.1:46598, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4160, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46598/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1)] -> xpath: /html/body/div[3]/header/div[2]/div/div/div[2]/nav/ul/li[1]/a/span]
+Session ID: ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <span> is not clickable at point (281,107) because another element <div class="loader"> obscures it
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1, clickElement {id=4c7cdfc4-ba1d-48dd-9c35-f85d38915dcf}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0, moz:accessibilityChecks: false, moz:buildID: 20240118164516, moz:debuggerAddress: 127.0.0.1:46598, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4160, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46598/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1)] -> xpath: /html/body/div[3]/header/div[2]/div/div/div[2]/nav/ul/li[1]/a/span]
+Session ID: ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at dhiofur.texrootsourcing.com.FigmaDesign.Homepage(FigmaDesign.java:39)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Homepage -->
+        <test-method signature="ServicesHajj()[pri:0, instance:dhiofur.texrootsourcing.com.FigmaDesign@5a5a729f]" started-at="2024-02-06T14:06:15 BDT" name="ServicesHajj" finished-at="2024-02-06T14:06:15 BDT" duration-ms="94" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <span> is not clickable at point (514,107) because another element <div class="loader"> obscures it
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1, clickElement {id=1767d3a5-7b32-4512-b77f-22110e0fc568}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0, moz:accessibilityChecks: false, moz:buildID: 20240118164516, moz:debuggerAddress: 127.0.0.1:46598, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4160, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46598/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1)] -> xpath: /html/body/div[3]/header/div[2]/div/div/div[2]/nav/ul/li[3]/a/span]
+Session ID: ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <span> is not clickable at point (514,107) because another element <div class="loader"> obscures it
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1, clickElement {id=1767d3a5-7b32-4512-b77f-22110e0fc568}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0, moz:accessibilityChecks: false, moz:buildID: 20240118164516, moz:debuggerAddress: 127.0.0.1:46598, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4160, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46598/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1)] -> xpath: /html/body/div[3]/header/div[2]/div/div/div[2]/nav/ul/li[3]/a/span]
+Session ID: ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at dhiofur.texrootsourcing.com.FigmaDesign.ServicesHajj(FigmaDesign.java:86)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServicesHajj -->
+        <test-method signature="VisaService()[pri:0, instance:dhiofur.texrootsourcing.com.FigmaDesign@5a5a729f]" started-at="2024-02-06T14:06:15 BDT" name="VisaService" finished-at="2024-02-06T14:06:15 BDT" duration-ms="63" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <span> is not clickable at point (514,107) because another element <div class="loader"> obscures it
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1, clickElement {id=1767d3a5-7b32-4512-b77f-22110e0fc568}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0, moz:accessibilityChecks: false, moz:buildID: 20240118164516, moz:debuggerAddress: 127.0.0.1:46598, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4160, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46598/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1)] -> xpath: /html/body/div[3]/header/div[2]/div/div/div[2]/nav/ul/li[3]/a/span]
+Session ID: ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <span> is not clickable at point (514,107) because another element <div class="loader"> obscures it
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1, clickElement {id=1767d3a5-7b32-4512-b77f-22110e0fc568}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0, moz:accessibilityChecks: false, moz:buildID: 20240118164516, moz:debuggerAddress: 127.0.0.1:46598, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4160, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46598/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1)] -> xpath: /html/body/div[3]/header/div[2]/div/div/div[2]/nav/ul/li[3]/a/span]
+Session ID: ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at dhiofur.texrootsourcing.com.FigmaDesign.VisaService(FigmaDesign.java:136)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VisaService -->
+        <test-method signature="servicesAir()[pri:0, instance:dhiofur.texrootsourcing.com.FigmaDesign@5a5a729f]" started-at="2024-02-06T14:06:15 BDT" name="servicesAir" finished-at="2024-02-06T14:06:15 BDT" duration-ms="185" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[The element with the reference 1767d3a5-7b32-4512-b77f-22110e0fc568 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1, isElementEnabled {id=1767d3a5-7b32-4512-b77f-22110e0fc568}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0, moz:accessibilityChecks: false, moz:buildID: 20240118164516, moz:debuggerAddress: 127.0.0.1:46598, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4160, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46598/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1)] -> xpath: /html/body/div[3]/header/div[2]/div/div/div[2]/nav/ul/li[3]/a/span]
+Session ID: ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element with the reference 1767d3a5-7b32-4512-b77f-22110e0fc568 is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1, isElementEnabled {id=1767d3a5-7b32-4512-b77f-22110e0fc568}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0, moz:accessibilityChecks: false, moz:buildID: 20240118164516, moz:debuggerAddress: 127.0.0.1:46598, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4160, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46598/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1)] -> xpath: /html/body/div[3]/header/div[2]/div/div/div[2]/nav/ul/li[3]/a/span]
+Session ID: ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.isEnabled(RemoteWebElement.java:181)
+at dhiofur.texrootsourcing.com.FigmaDesign.servicesAir(FigmaDesign.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- servicesAir -->
+        <test-method signature="servicestourpack()[pri:0, instance:dhiofur.texrootsourcing.com.FigmaDesign@5a5a729f]" started-at="2024-02-06T14:06:15 BDT" name="servicestourpack" finished-at="2024-02-06T14:06:16 BDT" duration-ms="282" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <span> is not clickable at point (514,107) because another element <div class="loader"> obscures it
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1, clickElement {id=94a3331f-b332-41cb-a76b-6d09613dfd4c}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0, moz:accessibilityChecks: false, moz:buildID: 20240118164516, moz:debuggerAddress: 127.0.0.1:46598, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4160, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46598/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1)] -> xpath: /html/body/div[3]/header/div[2]/div/div/div[2]/nav/ul/li[3]/a/span]
+Session ID: ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <span> is not clickable at point (514,107) because another element <div class="loader"> obscures it
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1, clickElement {id=94a3331f-b332-41cb-a76b-6d09613dfd4c}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 122.0, moz:accessibilityChecks: false, moz:buildID: 20240118164516, moz:debuggerAddress: 127.0.0.1:46598, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4160, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:46598/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on windows (ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1)] -> xpath: /html/body/div[3]/header/div[2]/div/div/div[2]/nav/ul/li[3]/a/span]
+Session ID: ab4dec3c-ab5f-4502-b2db-a2a1a0529ee1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at dhiofur.texrootsourcing.com.FigmaDesign.servicestourpack(FigmaDesign.java:104)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- servicestourpack -->
+        <test-method is-config="true" signature="close()[pri:0, instance:dhiofur.texrootsourcing.com.FigmaDesign@5a5a729f]" started-at="2024-02-06T14:06:16 BDT" name="close" finished-at="2024-02-06T14:06:17 BDT" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- dhiofur.texrootsourcing.com.FigmaDesign -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
